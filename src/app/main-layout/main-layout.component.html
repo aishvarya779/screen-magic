@@ -1,0 +1,24 @@
+<md-sidenav-container>
+  <md-sidenav color="primary" #sidenav>
+    <md-nav-list>
+      <md-list-item>
+        <a (click)="sidenav.close()">
+        <md-icon md-list-icon>home</md-icon>
+        <span md-line>Home</span>
+        <!-- <span md-line class="secondary">Home</span> -->
+      </a>
+        </md-list-item>
+    </md-nav-list>
+  </md-sidenav>
+  <div class="my-content">
+    <md-toolbar color="primary">
+      <button md-icon-button (click)="sidenav.open()">
+        <md-icon>menu</md-icon>
+      </button>
+<span>{{title}}</span>
+      <span class="fill-remaining-space"></span>
+      <span>rwa</span>
+    </md-toolbar>
+<!-- <router-outlet></router-outlet> -->
+  </div>
+</md-sidenav-container>

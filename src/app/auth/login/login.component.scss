@@ -1,0 +1,17 @@
+.container{
+    height: 100vh;
+    // background-image: linear-gradient(to top, #5ee7df 0%, #b490ca 100%);
+    // background: linear-gradient(141deg, #0fb8ad 0%, #1fc8db 51%, #2cb5e8 75%);
+    background: -webkit-radial-gradient(rgb(22, 207, 237), rgb(66, 115, 123));
+  background: radial-gradient(rgb(22, 207, 237), rgb(66, 115, 123));
+  md-card{
+      width: calc(100vw / 3);
+      md-toolbar{
+          text-align: center;
+      }
+      md-card-content{
+          margin-top: 2%;
+      }
+  }
+
+}
